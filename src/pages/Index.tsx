@@ -13,7 +13,7 @@ import { Toaster } from '@/components/ui/sonner';
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Toaster />
+      <Toaster position="top-right" expand={true} richColors />
       <Navbar />
       <Hero />
       <About />
